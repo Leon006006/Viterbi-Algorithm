@@ -44,7 +44,7 @@ class HMM:
         # Get highest probability of observation
         highest_prop = np.argmax(array[:, T-1, 0])
         probability_observation = array[highest_prop, T-1, 0]
-        print("Highest probability for observation-sequence: {}%".format(np.round(probability_observation * 100, 2)))
+        print("Highest probability for observation-sequence: {}%".format(np.round(probability_observation * 100, 5)))
 
         # Initialize sequence of states vector
         status_seq = np.zeros((1, T))

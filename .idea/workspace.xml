@@ -20,13 +20,13 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8429e33-9abb-4522-8569-fe1e21fe0d50" name="Default Changelist" comment="">
+    <list default="true" id="d8429e33-9abb-4522-8569-fe1e21fe0d50" name="Default Changelist" comment="final version with more complicated test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMM.py" beforeDir="false" afterPath="$PROJECT_DIR$/HMM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Denis Aufgaben" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -86,6 +86,14 @@
       <option name="presentableId" value="Default" />
       <updated>1595240347151</updated>
     </task>
+    <task id="LOCAL-00001" summary="final version with more complicated test">
+      <created>1595246449364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595246449364</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,46 +101,38 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final version with more complicated test" />
+    <option name="LAST_COMMIT_MESSAGE" value="final version with more complicated test" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1595246124468">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="740" y="335" key="FileChooserDialogImpl/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1595246124468" />
-    <state width="1899" height="196" key="GridCell.Tab.0.bottom" timestamp="1595246398644">
+    <state width="1899" height="196" key="GridCell.Tab.0.bottom" timestamp="1595246830425">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="196" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1595246398644" />
-    <state width="1899" height="196" key="GridCell.Tab.0.center" timestamp="1595246398644">
+    <state width="1899" height="196" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1595246830425" />
+    <state width="1899" height="196" key="GridCell.Tab.0.center" timestamp="1595246830425">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="196" key="GridCell.Tab.0.center/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1595246398644" />
-    <state width="1899" height="196" key="GridCell.Tab.0.left" timestamp="1595246398644">
+    <state width="1899" height="196" key="GridCell.Tab.0.center/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1595246830425" />
+    <state width="1899" height="196" key="GridCell.Tab.0.left" timestamp="1595246830425">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="196" key="GridCell.Tab.0.left/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1595246398644" />
-    <state width="1899" height="196" key="GridCell.Tab.0.right" timestamp="1595246398644">
+    <state width="1899" height="196" key="GridCell.Tab.0.left/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1595246830425" />
+    <state width="1899" height="196" key="GridCell.Tab.0.right" timestamp="1595246830425">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="196" key="GridCell.Tab.0.right/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1595246398644" />
+    <state width="1899" height="196" key="GridCell.Tab.0.right/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1595246830425" />
     <state x="552" y="313" key="Vcs.Push.Dialog.v2" timestamp="1595241506273">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
