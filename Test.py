@@ -8,7 +8,7 @@ Pi = np.array([[0.5], [0.5]])
 HMM1 = HMM.HMM(A, B, Pi)
 
 # Initialize observed vector
-Observation = np.array([[0, 1, 0]])
+Observation = np.array([[0, 1, 0, 1, 0, 1]])
 
 # Run Viterbi algorithm
 status_seq = HMM1.viterbi(Observation)
